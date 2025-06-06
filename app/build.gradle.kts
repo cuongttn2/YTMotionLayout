@@ -37,6 +37,7 @@ android {
 
 dependencies {
 
+    implementation("io.github.florent37:shapeofview:1.4.7")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
