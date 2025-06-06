@@ -13,15 +13,15 @@
 
         <KeyFrameSet>
             <KeyPosition
-                app:target="@id/image"
+                app:motionTarget="@id/image"
                 app:percentY="0.85"
                 app:framePosition="20"/>
             <KeyPosition
-                app:target="@id/image"
+                app:motionTarget="@id/image"
                 app:percentY="0.6"
                 app:framePosition="40"/>
             <KeyAttribute
-                app:target="@id/image"
+                app:motionTarget="@id/image"
                 app:framePosition="40">
                 <CustomAttribute
                     app:attributeName="elevation"
